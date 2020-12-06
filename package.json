@@ -1,14 +1,15 @@
-@@ -0,0 +1,13 @@
 {
-    "name": "simple-bot",
-    "version": "1.0.0",
-    "description": "This is a simple test and experiment bot",
-    "main": "pc-master.js",
-    "author": "karanagra",
-    "scripts": {
-        "start": "node bot.js"
-    },
-    "dependencies": {
-	"discord.js" : "11.2.1"
-	}
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "may i help you",
+  "main": "master.js",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
