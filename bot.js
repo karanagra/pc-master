@@ -1,3 +1,4 @@
+@@ -0,0 +1,28 @@
 var Discord = require('discord.js');
 var botName = require('./package.json');
 var bot = new Discord.Client();
@@ -10,7 +11,7 @@ bot.on('message', message =>{
     var prefix = ">" //The text before commands, you can put anything that you prefer
 
     if(message.author.id != "784925016662736896" && message.channel.id === "784921371410432050"){
-        if(msg.startsWith('Hy', 0)){
+        if(msg.startsWith('>', 0)){
             if(msg === prefix + "bang" && message.channel.id === "784921371410432050"){
                 message.channel.send('BOOM!!!!!') // Sends a message to the channel, with the content
             }
@@ -20,7 +21,7 @@ bot.on('message', message =>{
         }
         else{
             message.delete();
-            message.channel.send(sender + " this bot only accepts commands which starts with 'Hy' dot.");
+            message.channel.send(sender + " this bot only accepts commands which starts with '>' dot.");
         }
     }
 });
